@@ -47,6 +47,10 @@
       <HintPath>..\..\..\..\..\..\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\ColossalManaged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ExpressBusServices">
+      <HintPath>..\..\..\ExpressBusServices\ExpressBusServices\ExpressBusServices\bin\Debug\ExpressBusServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="ICities">
       <HintPath>..\..\..\..\..\..\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\ICities.dll</HintPath>
       <Private>False</Private>
@@ -57,10 +61,19 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TransportLinesManager">
+      <HintPath>..\..\..\..\..\..\SteamLibrary\steamapps\workshop\content\255710\1312767991\TransportLinesManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PatchController.cs" />
     <Compile Include="ExpressBusServices_TLM.cs" />
+    <Compile Include="Patch_DepartureChecker_ForTLM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
