@@ -1,0 +1,10 @@
+Buses now also unbunch at TLM-configured termini bus stops. Please refer to TLM for more general info about "termini stops".
+
+[h1]Quick Info[/h1]
+[list]
+[*]REQUIRES BASE MOD: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2262054175]Express Bus Services[/url]
+[*]No additional settings required; just plug and play!
+[/list]
+[h1]GitHub Repo[/h1]
+The GitHub repo, where you many find the source code, the README, and more details of this mod, is here:
+https://github.com/Vectorial1024/ExpressBusServices_TLM
