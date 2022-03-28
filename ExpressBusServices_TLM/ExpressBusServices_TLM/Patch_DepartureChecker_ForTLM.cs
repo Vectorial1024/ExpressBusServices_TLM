@@ -6,15 +6,15 @@ using UnityEngine;
 namespace ExpressBusServices_TLM
 {
     [HarmonyPatch(typeof(DepartureChecker))]
-    [HarmonyPatch("StopIsTerminus", MethodType.Normal)]
+    [HarmonyPatch("StopIsConsideredAsTerminus", MethodType.Normal)]
     public class Patch_DepartureChecker_ForTLM
     {
         // post fix the "is this a terminus stop" to cater for TLM terminus cases
-        [HarmonyPostfix]
-        public static void PostFix(ref bool __result, ushort stop)
+        [HarmonyPrefix]
+        public static void PreFix(ref bool __result, ushort stopID)
         {
             // could this be a TLM bus terminus?
-            __result = TLMStopDataContainer.Instance.SafeGet(stop).IsTerminal;
+            __result = TLMStopDataContainer.Instance.SafeGet(stopID).IsTerminal;
         }
     }
 }
