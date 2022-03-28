@@ -11,10 +11,11 @@ namespace ExpressBusServices_TLM
     {
         // post fix the "is this a terminus stop" to cater for TLM terminus cases
         [HarmonyPrefix]
-        public static void PreFix(ref bool __result, ushort stopID)
+        public static bool PreFix(ref bool __result, ushort stopID)
         {
             // could this be a TLM bus terminus?
             __result = TLMStopDataContainer.Instance.SafeGet(stopID).IsTerminal;
+            return false;
         }
     }
 }
