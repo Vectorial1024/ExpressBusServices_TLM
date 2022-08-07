@@ -71,6 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepartureChecker_TLM.cs" />
     <Compile Include="PatchController.cs" />
     <Compile Include="ExpressBusServices_TLM.cs" />
     <Compile Include="Patch_DepartureChecker_ForTLM.cs" />

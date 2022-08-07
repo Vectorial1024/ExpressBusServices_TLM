@@ -5,8 +5,8 @@ using UnityEngine;
 
 namespace ExpressBusServices_TLM
 {
-    [HarmonyPatch(typeof(DepartureChecker))]
-    [HarmonyPatch("StopIsConsideredAsTerminus", MethodType.Normal)]
+    // [HarmonyPatch(typeof(DepartureChecker))]
+    //  [HarmonyPatch("StopIsConsideredAsTerminus", MethodType.Normal)]
     public class Patch_DepartureChecker_ForTLM
     {
         // post fix the "is this a terminus stop" to cater for TLM terminus cases
