@@ -1,0 +1,5 @@
+Variation of the base TLM plugin, compiled for the t1a2l variation.
+
+The code for this variation is also located inside the TLM plugin repo; more info please check the README.
+
+More other info please visit the page for the main TLM plugin: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2630529375]Express Bus Services (TLM Plugin)[/url]
