@@ -13,7 +13,7 @@ namespace ExpressBusServices_TLM
         {
             get
             {
-                return "Express Bus Services (TLM plugin)";
+                return "Express Bus Services (TLM plugin: t1a2l variation)";
             }
         }
 

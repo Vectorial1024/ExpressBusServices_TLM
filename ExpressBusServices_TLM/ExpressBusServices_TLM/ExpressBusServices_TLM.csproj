@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExpressBusServices_TLM</RootNamespace>
-    <AssemblyName>ExpressBusServices_TLM</AssemblyName>
+    <AssemblyName>ExpressBusServices_TLM_t1a2l</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -62,7 +62,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="TransportLinesManager">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\255710\1312767991\TransportLinesManager.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\255710\3007903394\TransportLinesManager.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
